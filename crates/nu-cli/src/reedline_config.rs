@@ -1027,6 +1027,7 @@ fn event_from_record(
         "enter" => ReedlineEvent::Enter,
         "submit" => ReedlineEvent::Submit,
         "submitornewline" => ReedlineEvent::SubmitOrNewline,
+        "submitorspace" => ReedlineEvent::SubmitOrSpace,
         "esc" | "escape" => ReedlineEvent::Esc,
         // Non-sensical for user configuration:
         //
